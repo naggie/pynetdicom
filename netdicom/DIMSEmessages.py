@@ -37,7 +37,7 @@ DicomDictionary.update({
     0x00000901: ('AT', '1', "OffendingElement", ''),
     0x00000902: ('LO', '1', "ErrorComment", ''),
     0x00000903: ('US', '1', "ErrorID", ''),
-    0x00001000: ('UI', '1', " AffectedSOPInstanceUID", ''),
+    0x00001000: ('UI', '1', "AffectedSOPInstanceUID", ''),
     0x00001001: ('UI', '1', "RequestedSOPInstanceUID", ''),
     0x00001002: ('US', '1', "EventTypeID", ''),
     0x00001005: ('AT', '1', "AttributeIdentifierList", ''),
