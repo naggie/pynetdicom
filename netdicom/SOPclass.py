@@ -474,6 +474,7 @@ class QueryRetrieveMoveSOPClass(QueryRetrieveServiceClass):
             time.sleep(0.001)
             ans, id = self.DIMSE.Receive(Wait=False)
             if not ans:
+                yield None,None
                 continue
 
             status = self.Code2Status(ans.Status.value)
