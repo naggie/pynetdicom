@@ -22,7 +22,7 @@ sys.path.append('..')
 import time
 from applicationentity import AE
 from SOPclass import *
-import dicom
+import pydicom
 import dcmqrscp
 from utils import testfiles_dir
 

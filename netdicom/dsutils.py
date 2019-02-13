@@ -6,7 +6,7 @@
 #
 
 import StringIO
-import dicom
+import pydicom
 if dicom.__version_info__ >= (0, 9, 8):
     from dicom.filebase import DicomBytesIO
 else:

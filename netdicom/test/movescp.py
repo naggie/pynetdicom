@@ -23,7 +23,7 @@ import time
 from applicationentity import AE
 from SOPclass import PatientRootMoveSOPClass, VerificationSOPClass, \
     RTPlanStorageSOPClass
-import dicom
+import pydicom
 from dcmqrscp import start_dcmqrscp
 import dcmtkscu
 from utils import testfiles_dir

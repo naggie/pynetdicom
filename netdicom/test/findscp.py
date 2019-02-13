@@ -21,7 +21,7 @@ sys.path.append('..')
 import time
 from applicationentity import AE
 from SOPclass import PatientRootFindSOPClass, VerificationSOPClass
-import dicom
+import pydicom
 from dicom.dataset import Dataset
 import dcmtkscu
 

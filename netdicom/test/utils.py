@@ -9,7 +9,7 @@ import os
 import sys
 
 try:
-    import dicom
+    import pydicom
 except:
     raise Exception("dicom package not found. Please install it")
 

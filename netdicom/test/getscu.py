@@ -19,7 +19,7 @@ sys.path.append('..')
 import time
 from applicationentity import AE
 from SOPclass import *
-import dicom
+import pydicom
 from dcmqrscp import start_dcmqrscp
 from dicom.dataset import Dataset
 
